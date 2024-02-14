@@ -1,0 +1,18 @@
+.img {
+    display: flex;
+    height: 28px;
+    margin-left: 0px;
+    padding: 0px 0px 0px 0px;
+  }
+  
+
+  .img-logo{
+    height: 15px;
+  }
+  .img-logo:hover{
+    display: flex;
+    position: relative;
+    height: 50px;
+    margin-left: 0px;
+    padding: 0px 0px 0px 0px;
+  }

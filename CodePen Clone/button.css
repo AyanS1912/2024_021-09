@@ -1,0 +1,58 @@
+.btn-top {
+    background-color: #444857;
+    padding: 10px 20px 10px 20px;
+    margin: 20px 2px;
+    color: white;
+    font-size: small;
+    font-weight: 500;
+    border: 2.5px solid black;
+    border-radius: 6px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .btn-top:hover{
+    background-color: #586287;
+  }
+
+  .sgn-btn {
+    background-color: #47cf73;
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+    font-size: medium;
+    font-weight: 500;
+    padding: 7px 20px 7px 20px;
+    margin: 20px 2px;
+    border: 2.5px solid black;
+    border-radius: 6px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+ 
+  .btn-green {
+    background-color: #47cf73;
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+    font-size: small;
+    font-weight: 500;
+    border-radius: 6px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .sgn-btn:hover,.btn-green:hover{
+    background-color: #0e8c36;
+  }
+
+  .btn-bot {
+    background-color: #444857;
+    color: white;
+    font-size: smaller;
+    margin-left: 4px;
+    margin-right: 2px;
+    padding-top: 0.5px;
+    border-radius: 6px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }

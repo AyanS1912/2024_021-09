@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Task 2</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+  <div class="top"></div>
+  <div class="container-fluid h-100">
+    <div class="row h-100">
+      <div class="col-md-8 p-0"> 
+        <div class="leftbox"></div>
+      </div>
+      <div class="col-md-4 p-0">
+        <div class="rightbox"></div>
+      </div>
+    </div>
+  </div>
+  <div class="bottom"></div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
+
+<style>
+    .top {
+      background-color: blue;
+      height: 50px; 
+      position: fixed;
+      top:0%;
+      left:0%;
+      right:0%;
+    }
+    .bottom {
+      background-color: black;
+      height: 100px;
+      position: fixed;
+      bottom:0%;
+      left:0%;
+      right:0%;
+    }
+    .leftbox {
+      background-color: green;
+      height: calc(100vh - 50px);
+    }
+    .rightbox {
+      background-color: red;
+      height: calc(100vh - 50px);
+    }
+  </style>
